@@ -1,4 +1,5 @@
-from code import interact
+#NOT DONE
+
 from scapy.all import sniff, Ether, IP, TCP, UDP, Raw
 
 def packet_callback(packet):
@@ -48,4 +49,4 @@ def start_sniffing(interface=None):
 if __name__ == "__main__":
     # Specify the network interface to sniff on (e.g., 'eth0', 'wlan0')
     # If None, scapy will use the default interface
-    start_sniffing(interact)
+    start_sniffing(interface)

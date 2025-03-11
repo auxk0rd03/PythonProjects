@@ -3,7 +3,7 @@ from tkinter import scrolledtext
 import requests
 from bs4 import BeautifulSoup
 import re
-
+#GUI AND MAIN APP NOT WORKING PROPERLY
 # List of security headers to check
 security_headers = [
     "Content-Security-Policy",
