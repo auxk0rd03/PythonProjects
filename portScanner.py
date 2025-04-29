@@ -4,7 +4,7 @@ import threading
 from queue import Queue
 
 # Target IP address
-target_ip = "10.0.0.139"  # Replace with your target IP (lab environment only!)
+target_ip = "192.168.1.188"  # Replace with your target IP (lab environment only!)
 
 # Common ports to scan (you can customize this list)
 common_ports = [
